@@ -5,14 +5,15 @@ from sklearn.preprocessing import OneHotEncoder
 from tqdm import tqdm
 
 #################################################################
+
 ## Function List
-##
+
 ## smooth_labels: label smoothing
 ## onehot: label onehot-encoding
 ## _collect_files: collect file paths
 ## _load_data: read signal and label data
 ## load_single_dataset: load entire dataset
-##
+
 #################################################################
 
 def smooth_labels(labels, factor=0.1):
