@@ -1,0 +1,9 @@
+numpy==1.26.4
+pandas==2.3.0
+scikit-learn==1.7.0
+scipy==1.16.0
+tqdm==4.67.1
+wfdb==4.3.0
+torch==2.9.0+cu128
+torchvision==0.16.2+cu118
+h5py==3.9.0
